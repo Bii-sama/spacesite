@@ -1,0 +1,153 @@
+body{
+    background-image: url("backgroundcrewdesktop.JPG");
+    color: #f2f2f2;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+#icon{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+hr{
+    width: 35%;
+    position: relative;
+    left: -320px;
+}
+
+nav{
+    width: 800px;
+    height: 65px;
+    background-color: rgba(26, 26, 26,0.3);
+    position: relative;
+    left: 550px;
+    top: -50px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+nav ul a::after{
+    content: '';
+    display: block;
+    margin-bottom: 20px;
+    width: 0%;
+    position: relative;
+    height: 3px;
+    background-color:#f2f2f2;
+    bottom: -20px;
+    transition: all ease-in-out 250ms;
+}
+  
+nav ul a:hover::after{
+    width: 100%;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+#firstHalf{
+    width: 450px;
+    height: auto;
+}
+
+.heading{
+    font-weight: bolder;
+    position: relative;
+    margin-left: 80px;
+}
+
+.heading span{
+    color: #595959;
+    margin-right: 12.5px;
+}
+
+#aboutTheCrew{
+    width: 370px;
+    margin-top: 80px;
+    margin-left: 80px;
+    height: 180px;
+    overflow: hidden;
+}
+
+article h2{
+   font-size: 30px;
+   font-family: bellefair;
+   font-weight: lighter;
+}
+
+
+article h3{
+    color:#b3b3b3;
+    font-family: bellefair;
+    font-weight: lighter;
+}
+
+
+article p{
+    color: #b3b3b3;
+    font-size: 12.5px;
+    line-height: 1.5;
+}
+
+
+#secondHalf{
+    width: 450px;
+    height: 400px;
+    margin-left: 250px;
+    margin-top: 80px;
+    
+
+}
+
+.person1{
+    background-image: url("imagedouglashurley.PNG");
+    background-repeat: no-repeat;
+}
+
+.person2{
+    background-image: url("imagevictorglover.PNG");
+    background-repeat: no-repeat;
+}
+
+.person3{
+    background-image: url("imageanoushehansari.PNG");
+    background-repeat: no-repeat;
+}
+
+.person4{
+    background-image: url("imagemarkshuttleworth.PNG");
+    background-repeat: no-repeat;
+}
+
+.input{
+    width: 100px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+button{
+    width: 10px;
+    height: 10px;
+    background-color:#fff;
+    border-radius: 50%;
+    margin-left: 7.5px;
+    border-style: none;
+}

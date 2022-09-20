@@ -1,0 +1,405 @@
+body{
+    background-image: url("destinationBG.JPG");
+    color: #f2f2f2;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+#icon{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+hr{
+    width: 35%;
+    position: relative;
+    left: -320px;
+}
+
+nav{
+    width: 800px;
+    height: 65px;
+    background-color: rgba(26, 26, 26,0.3);
+    position: relative;
+    left: 550px;
+    top: -50px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+nav ul a::after{
+    content: '';
+    display: block;
+    margin-bottom: 20px;
+    width: 0%;
+    position: relative;
+    height: 3px;
+    background-color:#f2f2f2;
+    bottom: -20px;
+    transition: all ease-in-out 250ms;
+}
+  
+nav ul a:hover::after{
+    width: 100%;
+}
+
+#container2{
+    display:flex;
+    flex-direction: row;
+}
+
+.pictures{
+    margin-left: 80px;
+}
+
+.heading{
+    font-weight: bolder;
+    position: relative;
+}
+
+.heading span{
+    color: #595959;
+}
+
+#pictures{
+    width: 350px;
+    height: 350px;
+    margin-top: 60px;
+    margin-left: 30px;
+    
+}
+
+ .first{
+    background-image: url("imagemoon.PNG");
+    background-repeat: no-repeat;
+
+    
+}
+
+ .second{
+    background-image: url("imagemars.PNG");
+    background-repeat: no-repeat;
+ } 
+
+ .third{
+    background-image: url("imageeuropa.PNG");
+    background-repeat: no-repeat;
+    
+}
+
+ .fourth{
+    background-image: url("imagetitan.PNG");
+    background-repeat: no-repeat;
+    
+    
+}
+
+.nav{
+    width: 450px;
+    height: 50px;
+    top: 70px;
+    position: relative;
+    left: 118px;
+   
+}
+
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 7px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.nav ul li a::after{
+    content: '';
+    display: block;
+    margin-bottom: 20px;
+    width: 0%;
+    position: relative;
+    height: 3px;
+    background-color:#f2f2f2;
+    bottom: -10px;
+    transition: all ease-in-out 250ms;
+}
+
+.nav ul a:hover::after{
+    width: 100%;
+}
+
+#articles{
+    width: 480px;
+    height: 300px;
+    top: 130px;
+    position: relative;
+    left: -300px;
+    overflow: hidden;
+}
+
+#moon{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    left: 55px;
+    top: -50px;
+}
+
+#moon h2{
+    font-size: 65px;
+    font-family: bellefair;
+    font-weight: lighter;
+}
+
+#moon p{
+    font-size: 13.5px;
+    position: relative;
+    top: -30px;
+    line-height: 1.5;
+}
+
+#moon hr{
+    width: 345px;
+    position: relative;
+    top: -20px;
+    left: -5px;
+}
+
+#moon .details{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+}
+
+#moon .details .one{
+    margin-right: 100px;
+    font-size: 17.5px;
+}
+
+#moon .details .two{
+    margin-right: 100px;
+    font-size: 17.5px;
+}
+
+#moon .details .one::before{
+    width: auto;
+    content: 'Avg. distance';
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+#moon .details .two::before{
+    width: auto;
+    content: 'Est. travel time';
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+#mars{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    left: 55px;
+    top: -50px;
+}
+
+#mars h2{
+    font-size: 65px;
+    font-family: bellefair;
+    font-weight: lighter;
+}
+
+#mars p{
+    font-size: 13.5px;
+    position: relative;
+    top: -30px;
+    line-height: 1.5;
+}
+
+#mars hr{
+    width: 345px;
+    position: relative;
+    top: -20px;
+    left: -5px;
+}
+
+#mars .details{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+}
+
+#mars .details .one{
+    margin-right: 100px;
+    font-size: 17.5px;
+}
+
+#mars .details .two{
+    margin-right: 100px;
+    font-size: 17.5px;
+}
+
+#mars .details .one::before{
+    width: auto;
+    content: 'Avg. distance';
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+#mars .details .two::before{
+    width: auto;
+    content: 'Est. travel time';
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+#europa{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    left: 55px;
+    top: -50px;
+}
+
+#europa h2{
+    font-size: 65px;
+    font-family: bellefair;
+    font-weight: lighter;
+}
+
+#europa p{
+    font-size: 13.5px;
+    position: relative;
+    top: -30px;
+    line-height: 1.5;
+}
+
+#europa hr{
+    width: 345px;
+    position: relative;
+    top: -20px;
+    left: -5px;
+}
+
+#europa .details{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+}
+
+#europa .details .one{
+    margin-right: 100px;
+    font-size: 17.5px;
+}
+
+#europa .details .two{
+    margin-right: 100px;
+    font-size: 17.5px;
+}
+
+#europa .details .one::before{
+    width: auto;
+    content: 'Avg. distance';
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+#europa .details .two::before{
+    width: auto;
+    content: 'Est. travel time';
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+#titan{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    left: 55px;
+    top: -50px;
+}
+
+#titan h2{
+    font-size: 65px;
+    font-family: bellefair;
+    font-weight: lighter;
+}
+
+#titan p{
+    font-size: 13.5px;
+    position: relative;
+    top: -30px;
+    line-height: 1.5;
+}
+
+#titan hr{
+    width: 345px;
+    position: relative;
+    top: -20px;
+    left: -5px;
+}
+
+#titan .details{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+}
+
+#titan .details .one{
+    margin-right: 100px;
+    font-size: 17.5px;
+}
+
+#titan .details .two{
+    margin-right: 100px;
+    font-size: 17.5px;
+}
+
+#titan .details .one::before{
+    width: auto;
+    content: 'Avg. distance';
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+#titan .details .two::before{
+    width: auto;
+    content: 'Est. travel time';
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,155 @@
+body{
+    background-image: url(backgroundtechnologydesktop.JPG);
+    color: #f2f2f2;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+#icon{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+hr{
+    width: 35%;
+    position: relative;
+    left: -320px;
+}
+
+nav{
+    width: 800px;
+    height: 65px;
+    background-color: rgba(26, 26, 26,0.3);
+    position: relative;
+    left: 550px;
+    top: -50px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+nav ul a::after{
+    content: '';
+    display: block;
+    margin-bottom: 20px;
+    width: 0%;
+    position: relative;
+    height: 3px;
+    background-color:#f2f2f2;
+    bottom: -20px;
+    transition: all ease-in-out 250ms;
+}
+  
+nav ul a:hover::after{
+    width: 100%;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#description{
+    width: 330px;
+    height: 240px;
+    margin-left: 80px;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.heading{
+    font-weight: bolder;
+    position: relative;
+    margin-left: 27.5px;
+    
+}
+
+.heading span{
+    color: #595959;
+    margin-right: 12.5px;
+}
+
+article{
+    margin-left: 27.5px;
+}
+
+#button{
+    height: 212px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+button{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color:  #b3b3b3;
+    border-width: 1px;
+    font-family: bellefair;
+    font-size: 18px;
+    background-color: rgba(242, 242, 242, 0);
+    color: #f2f2f2;
+    
+}
+
+#one{
+    margin-bottom: 30.5px;
+}
+
+#two{
+    margin-bottom: 30.5px;
+}
+
+.small{
+    font-size: 13.5px;
+    color: #b3b3b3
+}
+
+.large{
+    font-family: bellefair;
+    font-size: 30px;
+    word-spacing: 0.2em;
+    font-weight: lighter;
+    
+}
+
+.medium{
+    font-size: 14.3px;
+    line-height: 1.78;
+    color: #b3b3b3
+}
+
+#techPicture{
+    width: 520px;
+    height: 423px;
+    margin-left: 290px;
+}
+
+.one{
+    background-image: url(imagelaunchvehicleportrait.jpg);
+}
+
+.two{
+    background-image: url(imagespacecapsuleportrait.jpg);
+}
+
+.three{
+    background-image: url(imagespaceportportrait.jpg);
+}
