@@ -84,25 +84,25 @@ nav ul a:hover::after{
 }
 
  .first{
-    background-image: url("imagemoon.PNG");
+    background-image: url("./imagemoon.png");
     background-repeat: no-repeat;
 
     
 }
 
  .second{
-    background-image: url("imagemars.PNG");
+    background-image: url("./imagemars.png");
     background-repeat: no-repeat;
  } 
 
  .third{
-    background-image: url("imageeuropa.PNG");
+    background-image: url("./imageeuropa.png");
     background-repeat: no-repeat;
     
 }
 
  .fourth{
-    background-image: url("imagetitan.PNG");
+    background-image: url("./imagetitan.png");
     background-repeat: no-repeat;
     
     
